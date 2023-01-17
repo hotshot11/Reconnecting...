@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    animation: animate 50s ease-in-out infinite;
+    overflow: auto;
+    
+
+}
+
+
+@keyframes animate{
+    0%{
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pictures/Moonbg.gif); 
+    }
+    25%{
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pictures/Rainbg.gif); 
+    }
+    50%{
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pictures/Sunrisebg.gif); 
+    }
+    75%{
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pictures/Moonbg.gif); 
+    }
+    100%{
+        background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pictures/Handsbg.gif); 
+    }
+
+
+}
+
+.text-box{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    text-align: center;
+    text-justify: auto;
+}
+.aud{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 17%;
+    left: 0%;
+    text-align: center;
+    text-justify: auto;
+}
+.batman{
+    
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 250%;
+    left: 0%;
+    text-align: center;
+    text-justify: auto;
+
+  }
+  .play{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 17%;
+    left: -10%;
+    text-align: center;
+    text-justify: auto;
+}
+
+
+    
+
+
+
+
+
+
+@media(max-width: 720px) {
+    
+.text-box{
+font-size: 20px;
+}
+
+.aud{
+    top: 15%;
+
+}
+.batman{
+top: 200%;
+
+  }
+  .play{
+left: -45%;
+top: 16%;
+
+
+  }
+
+}
